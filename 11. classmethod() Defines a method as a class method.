@@ -1,0 +1,6 @@
+class MyClass:
+    @classmethod
+    def greet(cls):
+        return "Hello from class method!"
+
+print(MyClass.greet())  # Output: Hello from class method!
