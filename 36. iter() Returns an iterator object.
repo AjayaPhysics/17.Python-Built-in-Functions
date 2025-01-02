@@ -1,0 +1,4 @@
+numbers = [1, 2, 3]
+it = iter(numbers)
+print(next(it))  # Output: 1
+print(next(it))  # Output: 2
