@@ -1,0 +1,2 @@
+number = 10
+print(bin(number))  # Output: '0b1010'
