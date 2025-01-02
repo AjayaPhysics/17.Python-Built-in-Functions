@@ -1,0 +1,17 @@
+class MyClass:
+    attr = 10  # Class attribute
+
+obj = MyClass()
+delattr(MyClass, 'attr')  # Delete the class attribute
+print(hasattr(obj, 'attr'))  # Output: False
+
+
+
+
+class MyClass:
+    def __init__(self):
+        self.attr = 10  # Instance attribute
+
+obj = MyClass()
+delattr(obj, 'attr')  # Delete the instance attribute
+print(hasattr(obj, 'attr'))  # Output: False
