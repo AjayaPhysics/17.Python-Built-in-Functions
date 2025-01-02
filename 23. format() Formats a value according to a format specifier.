@@ -1,0 +1,2 @@
+print(format(123, "04d"))  # Output: '0123'
+print(format(3.14159, ".2f"))  # Output: '3.14'
