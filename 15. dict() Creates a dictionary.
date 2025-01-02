@@ -1,2 +1,6 @@
 d = dict(a=1, b=2)
 print(d)  # Output: {'a': 1, 'b': 2}
+
+
+student = dict(name="Ajaya", age=30, subject="Physics")
+print(student)  # Output: {'name': 'Ajaya', 'age': 30, 'subject': 'Physics'}
