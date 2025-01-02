@@ -1,0 +1,2 @@
+obj = object()
+print(obj)  # Output: <object object at ...>
