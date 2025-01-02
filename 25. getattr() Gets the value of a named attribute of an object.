@@ -1,0 +1,5 @@
+class MyClass:
+    attr = "Hello!"
+
+obj = MyClass()
+print(getattr(obj, 'attr'))  # Output: Hello!
