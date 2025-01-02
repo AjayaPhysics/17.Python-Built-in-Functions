@@ -1,0 +1,6 @@
+class MyClass:
+    @staticmethod
+    def greet():
+        return "Hello, static method!"
+
+print(MyClass.greet())  # Output: Hello, static method!
