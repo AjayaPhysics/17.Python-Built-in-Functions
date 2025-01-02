@@ -1,0 +1,7 @@
+class MyClass:
+    def __init__(self):
+        self.attr1 = "value1"
+        self.attr2 = "value2"
+
+obj = MyClass()
+print(vars(obj))  # Output: {'attr1': 'value1', 'attr2': 'value2'}
