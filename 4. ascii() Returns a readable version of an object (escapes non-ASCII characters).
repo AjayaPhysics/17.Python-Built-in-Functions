@@ -1,0 +1,2 @@
+text = 'ñ'
+print(ascii(text))  # Output: '\xf1'
