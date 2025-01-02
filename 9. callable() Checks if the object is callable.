@@ -1,0 +1,2 @@
+print(callable(print))  # Output: True
+print(callable(123))    # Output: False
