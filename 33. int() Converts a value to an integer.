@@ -1,0 +1,2 @@
+print(int("10"))  # Output: 10
+print(int(3.14))  # Output: 3
