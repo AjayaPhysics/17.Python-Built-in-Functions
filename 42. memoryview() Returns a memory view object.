@@ -1,0 +1,3 @@
+byte_data = b'Hello'
+view = memoryview(byte_data)
+print(view[0])  # Output: 72 (ASCII of 'H')
