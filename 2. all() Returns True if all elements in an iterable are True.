@@ -1,0 +1,2 @@
+values = [True, 1, "Python"]
+print(all(values))  # Output: True
