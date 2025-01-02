@@ -1,0 +1,2 @@
+c = complex(1, 2)
+print(c)  # Output: (1+2j)
