@@ -1,0 +1,3 @@
+code = "x = 5\ny = 10\nprint(x + y)"
+compiled_code = compile(code, '<string>', 'exec')
+exec(compiled_code)  # Output: 15
