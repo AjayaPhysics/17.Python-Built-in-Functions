@@ -1,0 +1,6 @@
+class MyClass:
+    attr = "Hello!"
+
+obj = MyClass()
+print(hasattr(obj, 'attr'))  # Output: True
+print(hasattr(obj, 'missing'))  # Output: False
