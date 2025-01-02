@@ -1,0 +1,6 @@
+class MyClass:
+    pass
+
+obj = MyClass()
+setattr(obj, 'attr', 42)
+print(obj.attr)  # Output: 42
