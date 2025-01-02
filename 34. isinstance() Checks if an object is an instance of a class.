@@ -1,0 +1,2 @@
+print(isinstance(5, int))  # Output: True
+print(isinstance("Hello", int))  # Output: False
