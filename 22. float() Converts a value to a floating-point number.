@@ -1,0 +1,2 @@
+print(float("3.14"))  # Output: 3.14
+print(float(5))       # Output: 5.0
