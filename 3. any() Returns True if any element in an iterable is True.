@@ -1,0 +1,2 @@
+values = [False, 0, "Python"]
+print(any(values))  # Output: True
