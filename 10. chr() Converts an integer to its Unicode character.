@@ -1,0 +1,2 @@
+unicode_val = 97
+print(chr(unicode_val))  # Output: 'a'
